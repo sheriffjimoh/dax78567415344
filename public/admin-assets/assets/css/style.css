@@ -1,0 +1,252 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+
+
+:root{
+ --prim-color:#0473ae;
+  --sec-color:#e93c05;
+}
+
+
+.bg-gradient-x-primary{
+	background-color:var(--prim-color) !important; 
+}
+
+.header-navbar #content-x{
+	background-color: var(--prim-color) !important;
+	
+}
+
+
+.page-item .active .page-link {
+    background-color: lightgrey !important;
+    border: 1px solid black;
+}
+.page-link {
+    color: black !important;
+}
+.badge-primary , .btn-primary {
+	background-color: var(--prim-color) !important;
+	border: 1px solid  var(--prim-color) !important;
+}
+
+.btn-primary:hover{
+	background-color: var(--prim-color) !important;
+}
+
+.text-primary{
+	color:var(--prim-color) !important; 
+}
+.bg-primary{
+		background-color: var(--prim-color) !important;
+		color: #fff;
+}
+
+.text-white{
+	color: #fff !important;
+}
+
+.bd-white{
+	border: 2px solid #fff !important;
+}
+
+#hide-box{
+	display: none;
+}
+
+#interest-repay{
+	display: none;
+}
+
+
+@media print {
+	.print-no{
+		/*display: none !important;*/
+		left: 0px;
+	}
+
+	*{
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+
+
+	.new-print-view{
+		padding: 0px !important;
+		margin: 0px !important;
+		width: 100% !important;
+	}
+
+
+	.print-card{
+		width: 100% !important;
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+}
+
+
+input[type=file] {
+	opacity: 0;
+}
+
+.nav-top-border .nav-item a{
+	color: var(--prim-color) !important;
+}
+
+.nav-top-border .nav-item .active{
+	color: var(--prim-color) !important;
+	border-top: 4px solid  var(--prim-color) !important;
+}
+
+.chart {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.chart svg,
+.chart canvas {
+  width: 100% !important;
+}
+
+
+.full-width-chart {
+  margin: -19px;
+}
+
+.no-padding .full-width-chart {
+  margin: -9px;
+}
+
+
+
+.chart-legend {
+  margin: 10px 0;
+}
+@media (max-width: 991px) {
+  .chart-legend > li {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+#legend{
+	padding: 10px;
+}
+#legend ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+#legend ul li {
+   display: inline-flex;
+	padding: 5px;
+font-family: "arial";
+}
+
+#legend ul li span {
+	display: inline-block;
+	 margin-right: 5px;
+	padding: 15px;
+	/*margin-top: 10px !important;*/
+	border-radius: 50%;
+}
+
+
+#user-legend{
+list-style: none;
+}
+
+#user-legend li {
+ display: inline-block;
+ padding: 0px  5px  5px  5px;
+ font-family:"Arial";
+}
+
+#account-details{
+	display: none;
+}
+
+
+
+.invest-file{
+	opacity: 0px;
+}
+
+
+
+
+#submit-handover{
+	display: none;
+}
+#btn-invest{
+	display: none;
+}
+
+
+.input-file-style{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;
+	text-align: center;*/
+	margin: 10px 10px 70px 10px;
+
+}
+
+.input-file-style label {
+	margin-bottom: -80px;
+}
+
+
+
+
+.zoom {
+ 
+  transition: transform .2s; /* Animation */
+/*  width: 200px;
+  height: 200px;
+  margin: 0 auto;*/
+}
+
+.zoom:hover {
+  transform: scale(3.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+#addfundform{
+	display: none;
+}
+
+
+
+
+.port-d{
+	padding: 5px;
+	margin-top: 10px;
+	border-top: 3px solid var(--prim-color);
+	border-bottom: 3px solid var(--prim-color);
+	text-align: left;
+}
+
+.port-d ul {
+	list-style: none;
+}
+
+.port-d ul li {
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: var(--prim-color);
+}
